@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo5"
+    android:foregroundTint="#000000"
+    tools:context=".moduloadministrador.zooa.zooAFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="316dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:src="@drawable/corner_image" />
+
+    <EditText
+        android:id="@+id/editTextMoneda"
+        android:layout_width="245dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/corner_txt"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:text="Moneda..."
+        android:textColor="#B4B4B4"
+        android:textSize="14sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/editTextPrecio"
+        android:layout_width="245dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/corner_txt"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        android:text="Precio Ticket..."
+        android:textColor="#B4B4B4"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextMoneda"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextZoo" />
+
+    <EditText
+        android:id="@+id/editTextZoo"
+        android:layout_width="245dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/corner_txt"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        android:text="Nombre Zoologico..."
+        android:textColor="#B4B4B4"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/editTextBuscarZoo"
+        android:layout_width="300dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/corner_txt"
+        android:drawableLeft="@drawable/ic_search"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:text="Buscar zoologicos..."
+        android:textColor="#B4B4B4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCargarTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="160dp"
+        android:backgroundTint="#9A9A9A"
+        android:gravity="center_vertical"
+        android:text="CARGAR"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="279dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/corner_image"
+        android:text="AJUSTAR TARIFA"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBuscarZoo"
+        tools:src="@drawable/corner_image" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
