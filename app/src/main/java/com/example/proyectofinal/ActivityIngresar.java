@@ -153,7 +153,7 @@ private EditText edtCorreo,edtContraseña;
                                         Toast.makeText(ActivityIngresar.this,"Usted ha ingresado con éxito, BIENVENIDO", Toast.LENGTH_SHORT).show();
 
                                         //AQUI VA LA REDIRECCION AL FORMULARIO PRINCIPAL QUE VAN A VER LOS USUARIOS CUANDO EL LOGIN SEA EXITOSO
-                                        Intent io = new Intent(ActivityIngresar.this, InicioUsuario.class);
+                                        Intent io = new Intent(ActivityIngresar.this, UsuarioActivity.class);
                                         startActivity(io);
                                     }else
                                     {

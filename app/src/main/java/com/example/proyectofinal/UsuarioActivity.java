@@ -28,14 +28,13 @@ public class UsuarioActivity extends AppCompatActivity {
 
         binding = ActivityUsuarioBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
-       // setSupportActionBar(binding.appBarUsuario.toolbar);
+        setSupportActionBar(binding.appBarUsuario.toolbar);
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
+                R.id.nav_iniciou, R.id.nav_animalu, R.id.nav_zoou, R.id.nav_ticketsu)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_usuario);
