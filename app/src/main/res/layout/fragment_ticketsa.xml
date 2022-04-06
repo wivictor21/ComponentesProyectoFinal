@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondo5"
     android:foregroundTint="#000000"
-    tools:context=".moduloadministrador.zooa.zooAFragment">
+    tools:context=".moduloadministrador.ticketsa.ticketsaFragment">
 
     <ImageView
         android:id="@+id/imageView2"
