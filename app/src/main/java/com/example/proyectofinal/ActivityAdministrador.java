@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.view.Menu;
 
 import com.google.android.material.navigation.NavigationView;
-
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -33,9 +32,10 @@ public class ActivityAdministrador extends AppCompatActivity {
                 R.id.nav_inicioa, R.id.nav_zooa, R.id.nav_animalesa, R.id.nav_ticketsa)
                 .setOpenableLayout(drawer)
                 .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_activity_administrador);
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_activity_administrador);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
     }
 
     @Override
@@ -47,7 +47,7 @@ public class ActivityAdministrador extends AppCompatActivity {
 
     @Override
     public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_activity_administrador);
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_activity_administrador);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
