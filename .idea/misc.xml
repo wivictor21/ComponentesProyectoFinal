@@ -4,11 +4,32 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/activity_admin.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/activity_ingresar.xml" value="0.18819655521783182" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/activity_inicio_usuario.xml" value="0.24909420289855072" />
         <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/activity_pruebas.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/activity_recuperar_pass.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/activity_registrar.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/activity_usuario.xml" value="0.24909420289855072" />
         <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/app_bar_activity_administrador.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/app_bar_usuario.xml" value="0.24909420289855072" />
         <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/content_activity_administrador.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/content_usuario.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/fragment_animalesa.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/fragment_animalesu.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/fragment_inicioa.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/fragment_iniciou.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/fragment_ticketsa.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/fragment_ticketsu.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/fragment_zooa.xml" value="0.5" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/fragment_zoou.xml" value="0.24909420289855072" />
         <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/inicio_administrador.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/nav_header_activity_administrador.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/layout/nav_header_usuario.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/menu/activity_admin_drawer.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/menu/activity_usuario_drawer.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/menu/menu_administrador.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/infor/AndroidStudioProjects/ComponentesProyectoFinal/app/src/main/res/menu/usuario.xml" value="0.38697916666666665" />
         <entry key="app/src/main/res/layout/activity_admin.xml" value="0.3591485507246377" />
         <entry key="app/src/main/res/layout/activity_ingresar.xml" value="0.3591485507246377" />
         <entry key="app/src/main/res/layout/activity_inicio_usuario.xml" value="0.3591485507246377" />

@@ -15,9 +15,11 @@
         android:layout_marginStart="47dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="48dp"
+        android:contentDescription="@string/img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:ignore="ImageContrastCheck"
         tools:src="@drawable/corner_image" />
 
     <EditText
@@ -25,17 +27,19 @@
         android:layout_width="245dp"
         android:layout_height="33dp"
         android:layout_marginBottom="20dp"
+        android:autofillHints=""
         android:background="@drawable/corner_txt"
         android:ems="10"
         android:inputType="text"
         android:paddingLeft="10dp"
-        android:text="Moneda..."
+        android:text="@string/moneda"
         android:textColor="#B4B4B4"
-        android:textSize="14sp"
 
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintStart_toStartOf="@+id/imageView2" />
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextPrecio"
@@ -43,18 +47,20 @@
         android:layout_height="33dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
+        android:autofillHints=""
         android:background="@drawable/corner_txt"
         android:ems="10"
         android:inputType="number"
         android:minHeight="48dp"
         android:paddingLeft="10dp"
-        android:text="Precio Ticket..."
+        android:text="@string/precio"
         android:textColor="#B4B4B4"
         android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextMoneda"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextZoo" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextZoo"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextZoo"
@@ -66,12 +72,13 @@
         android:inputType="text"
         android:minHeight="48dp"
         android:paddingLeft="10dp"
-        android:text="Nombre Zoologico..."
+        android:text="@string/nombre_zoo"
         android:textColor="#B4B4B4"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextBuscarZoo"
@@ -80,16 +87,18 @@
         android:layout_marginStart="55dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="56dp"
+        android:autofillHints=""
         android:background="@drawable/corner_txt"
-        android:drawableLeft="@drawable/ic_search"
+        android:drawableStart="@drawable/ic_search"
         android:ems="10"
         android:inputType="text"
         android:paddingLeft="10dp"
-        android:text="Buscar zoologicos..."
+        android:text="@string/buscar_zoo"
         android:textColor="#B4B4B4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/btnCargarTicket"
@@ -100,7 +109,7 @@
         android:layout_marginEnd="160dp"
         android:backgroundTint="#9A9A9A"
         android:gravity="center_vertical"
-        android:text="CARGAR"
+        android:text="@string/cargar"
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -115,10 +124,10 @@
         android:layout_marginEnd="66dp"
         android:layout_marginBottom="25dp"
         android:background="@drawable/corner_image"
-        android:text="AJUSTAR TARIFA"
+        android:text="@string/ajusta_tarifa"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
